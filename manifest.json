@@ -1,0 +1,10 @@
+{
+  "name": "Furkish",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "It's raining man hallelujah",
+  "browser_action": {
+    "default_icon": "furkish.png",
+    "default_popup": "sine.html"
+  }
+}
