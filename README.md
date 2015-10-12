@@ -2,6 +2,8 @@
 
 > kafası şimdi gelmeli mi?
 
+> ooyes kafası şimdi geldi.
+
 ## about
 
 [mavidurak](http://mavidurak.github.io/) topluluğu için bir oyun denemesidir.
