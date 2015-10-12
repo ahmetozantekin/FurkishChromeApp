@@ -1,35 +1,18 @@
 <html>
 <head>
-  <link rel='stylesheet' href='style.css'/>
-  <script src="jquery-2.1.4.min.js"></script>
-<style>
-.kafa {
-    top:0px;
-    left:0px;
-    position:absolute;
-    z-index:200;
-    width:40px;
-    height:53px;
-    background-image: url("http://www.imgim.com/3069incil2983932.png");
-}
-body {background-color:white; max-width:400px; height:300px; }
-#site {
-    width:400px;
-    height:400px;
-    margin:0 auto;
-    position:relative;
-    overflow:hidden;
-}
-</style>
+  <link rel='stylesheet' href='css/style.css'/>
+  <script src="js/jquery-2.1.4.min.js"></script>
 </head>
 <body>
+  <div id="game">
     <div id="result"></div>
     <div id="site">
-        <div id="snowZone">
-          <img class="logo" src="http://imgim.com/tava.png">
-        </div>
+      <div id="snowZone">
+        <img class="logo" src="assets/tava.png">
+      </div>
     </div>
-    <script src="furkish.js"></script>
-
+  </div>
+  <div id="score"><b>Best Score:</b> <span id="best"></span></div>
+  <script src="furkish.js"></script>
 </body>
 </html>
