@@ -1,0 +1,38 @@
+* {
+  font-family: "Verdana"
+}
+
+.kafa {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  z-index: 200;
+  width: 40px;
+  height: 53px;
+  background-image: url("../assets/kafa.png");
+}
+
+game {
+  padding: 1em;
+  background-color: white;
+  max-width: 400px;
+  height: 300px;
+}
+
+#site {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+#score {
+  text-align: center;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+#result {
+  text-align: center;
+}
